@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    --font-family: 'Overpass', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+p{
+    font-size: 15px;
+    color:var(--medium-grey);
+}

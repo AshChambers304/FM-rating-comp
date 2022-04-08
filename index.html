@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <div class="dialog" id="rating-form">
+          <div class="img-container star-container">
+            <img src="./src/assets/images/icon-star.svg" alt="star" />
+          </div>
+          <h1 class="rating-heading">How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="ratings-container">
+            <span class="rating" data-rating="1">1</span>
+            <span class="rating" data-rating="2">2</span>
+            <span class="rating" data-rating="3">3</span>
+            <span class="rating" data-rating="4">4</span>
+            <span class="rating" data-rating="5">5</span>
+          </div>
+          <button class="submit" id="submit-button">Submit</button>
+        </div>
+
+        <div class="dialog hidden" id="thanks-dialog">
+          <div class="img-container mobile-container">
+            <img
+              src="./src/assets/images/illustration-thank-you.svg"
+              alt="thank you"
+            />
+          </div>
+          <span class="confirmation" id="confirmation"></span>
+          <h2 class="thank-you-heading">Thank you!</h2>
+          <p style="text-align: center">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ashley Chambers</a>.
+    </div>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
